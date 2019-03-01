@@ -1,0 +1,333 @@
+/* CSS Document */
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.login-main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+
+.wrapper{
+  display: flex;
+  align-items: stretch;
+}
+#admin-sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+#admin-sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+.admin-sidebar-header img{
+  width: 30%;
+  margin-top: 10px;
+}
+.admin-sidebar-header h3{
+  display: none;
+  color: #fff;
+}
+#admin-sidebar ul li a {
+    text-align: left;
+  text-decoration: none;
+}
+#admin-sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+    color: #fff;
+}
+#admin-sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+#admin-sidebar.active ul ul a {
+    padding: 10px !important;
+}
+#admin-sidebar.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+#admin-sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+#admin-sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+#admin-sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+#admin-sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+  color: #fff;
+}
+#admin-sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+#admin-sidebar ul li a i {
+    margin-right: 10px;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+@media (max-width: 700px) {
+    #admin-sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        margin-left: -80px !important;
+    }
+    .dropdown-toggle::after {
+        top: auto;
+        bottom: 10px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #admin-sidebar.active {
+        margin-left: 0 !important;
+    }
+    #admin-sidebar .admin-sidebar-header h3 {
+        display: block;
+    }
+  #admin-sidebar .admin-sidebar-header img {
+    width: 60%;
+        display: none;
+    }
+    #admin-sidebar ul li a {
+        padding: 20px 10px;
+    }
+    #admin-sidebar ul li a span {
+        font-size: 0.85em;
+    }
+    #admin-sidebar ul li a i {
+        margin-right: 0;
+        display: block;
+    }
+    #admin-sidebar ul ul a {
+        padding: 10px !important;
+    }
+    #admin-sidebar ul li a i {
+        font-size: 1.3em;
+    }
+    #admin-sidebar {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+#admin-content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+#form-add{
+  width: 80%;
+  margin: auto;
+}
+#form-add h2{
+  color: #F57F18;
+  font-weight: bold;
+}
+#form-add hr{
+  border-top:2px dashed #FF0004;
+}
+.each-line-regist{
+  clear: both;
+}
+.each-line-regist p{
+  width: 35%;
+  float:left;
+}
+.each-line-regist input{
+  border:none;
+  width: 65%;
+}
+.each-line-regist textarea{
+  width: 100%;
+}
+#lines-regist hr{
+  border-top:1px solid #000;
+}
+.each-line-regist button{
+  width: 40%;
+  margin: 5% 5% 0;
+  float: left;
+}
+
+#type2{
+  width: 90%;
+  border: 1px solid #CCCCCC;
+  border-radius: 15px;
+  padding: 1% 2%;
+}
+#type2 input{
+  width: 90%;
+  margin-bottom: 3%;
+}
+#type2 p{
+  padding: 0;
+  margin: 0;
+}
+#type2 .imagethumbnail > img{
+  width: 150%;
+  margin:50% 0 0 -40%;
+}
+#allslide{
+  width: 90%;
+  padding: 1% 0;
+  margin-top: 1.5% !important;
+  border: 1px solid #CCC;
+}
+.eachslide img{
+  width: 60%;
+  height: 7vh;
+  margin-left: 20%;
+}
+.eachslide input{
+  width: 100%;
+  margin-top: 3%;
+}
+.eachslide p{
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.showdataadmin{
+  width: 100%;
+  padding: 1% 0;
+  margin-top: 1.5% !important;
+}
+.shownews{
+  border:1px solid #CCC;
+}
+.shownews > tbody > tr >td{
+  text-align: center;
+  border-right: 1px solid #CCC;
+}
+.shownews > thead > tr >th{
+  text-align: center;
+  border:1px solid #CCC;
+}
+.shownews > tbody > tr >td:nth-child(1){
+  width: 15%;
+}
+.shownews > tbody > tr >td:nth-child(2n){
+  width: 10%;
+}
+.shownews > tbody > tr >td:nth-child(3){
+  width: 45%;
+  text-align: justify;
+}
+.shownews > tbody > tr >td:nth-child(5){
+  width: 10%;
+}
+.showcats{
+  border:1px solid #CCC;
+}
+.showcats > tbody > tr >td{
+  text-align: center;
+  border-right: 1px solid #CCC;
+}
+.showcats > thead > tr >th{
+  text-align: center;
+  border:1px solid #CCC;
+}
+.showcats > tbody > tr >td:nth-child(1){
+  width: 15%;
+}
+.showcats > tbody > tr >td:nth-child(2){
+  width: 45%;
+  text-align: justify;
+}
+.showcats > tbody > tr >td:nth-child(3){
+  width: 10%;
+}.showcats > tbody > tr >td:nth-child(4){
+  width: 10%;
+}
+.showcats > tbody > tr >td:nth-child(5){
+  width: 10%;
+}
+.showuser{
+  border:1px solid #CCC;
+}
+.showuser > tbody > tr >td{
+  text-align: center;
+  border-right: 1px solid #CCC;
+}
+.showuser > thead > tr >th{
+  text-align: center;
+  border:1px solid #CCC;
+}
+.showuser > tbody > tr >td{
+  width: 20%;
+}
