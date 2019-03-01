@@ -1,0 +1,18 @@
+Login ninjateam.vn
+1.Quan ly TK
+	Them tk
+	List danh sach
+	Cau hinh shop
+2. Quan ly SP
+	Danh sach(copy shopee)
+	Them (ket hop 2 trang danh muc va thong tin)(danh sach danh muc pop-up va cho len tren cung)
+	Dang bai bang excxcel ( ket hop phan danh sach giong shopee
+	Dang bai bang link (o nhap danh sach link)(ho tro tiki, lazada, sendo, shopee)
+	 => hien danh sach => danh dau chon danh muc => dang len
+3. Quan ly danh muc
+	Them danh muc tu tao (chi them danh muc - giao dien shopee)
+	Danh muc tu tao
+	Danh muc san
+		Hien thi so luong san pham trong moi danh muc(chi hien danh muc co san pham)
+		ten - so luong(show SP trong danh muc) - chi tiet(show list san pham trong danh muc)
+		 
